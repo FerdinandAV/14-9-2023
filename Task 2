@@ -1,0 +1,38 @@
+boolean happy = true;
+void setup() {
+  if (iAmHappy(happy))
+  {
+    println("I clap my hands");
+  } else
+  {
+    println("I don't clap my hands");
+  }
+  println(sum(5, 13));
+  println(upperCase("Hello world"));
+  println(firstCharUpperCase("Hello people"));
+}
+
+boolean iAmHappy(boolean happy) {
+  if (happy) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+int sum(int a, int b) {
+  return a + b;
+}
+
+String upperCase(String Hello) {
+  return Hello.toUpperCase();
+}
+
+boolean firstCharUpperCase(String text) {
+  if (Character.isUpperCase(text.charAt(0))) {
+
+    return true;
+  } else {
+    return false;
+  }
+}
