@@ -1,0 +1,17 @@
+void setup(){
+  helloWorld();
+  println(helloWorld2());
+nameAge("Ferdinand", 19);
+}
+
+void helloWorld(){
+println("Hello from the function");
+}
+
+String helloWorld2(){
+return "Hello from the function"; 
+}
+
+void nameAge(String name, int age){
+ println("My name is " + name + " I am " + age + " years old");
+}
