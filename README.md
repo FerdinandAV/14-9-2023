@@ -1,2 +1,2 @@
-println("Ferdinand") 
-println("cph-fv49@cphbusiness.dk")
+Ferdinand 
+cph-fv49@cphbusiness.dk
