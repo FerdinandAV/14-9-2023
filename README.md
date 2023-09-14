@@ -1,1 +1,2 @@
-"Ferdinand" "cph-fv49@cphbusiness.dk"
+println("Ferdinand") 
+println("cph-fv49@cphbusiness.dk")
